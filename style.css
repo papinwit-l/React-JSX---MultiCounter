@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.counter {
+  margin: auto;
+  display: flex;
+  width: 60%;
+}
+
+.counter > * {
+  flex: 1;
+  text-align: center;
+  font-size: 32px;
+}
